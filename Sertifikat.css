@@ -1,0 +1,83 @@
+body{
+    background-color:burlywood
+}
+
+.container {
+    display: flex;
+}
+
+h3{
+    font-size: 30px;
+    margin: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 3px black;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.container img{
+    box-shadow: 7px 5px black;
+    background-color:brown;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    border: 5px solid black;
+}
+.kotak-1{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 120%;
+}
+
+.kotak-2{
+    margin-top: 15px;
+    margin-left: 340px;
+    width: 48%;
+}
+.kotak-3{
+    margin-left: 340px;
+    width: 48%;
+}
+
+h1 {
+    color:burlywood;
+    margin-top: -50px;
+    margin-left: 360px;
+    text-shadow: 3px 3px black;
+}
+
+h2{
+    font-size: 35px;
+    color:burlywood;
+    margin-top: -55px;
+    text-shadow: 3px 3px black;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .kotak-1{
+        margin-top: 15px;
+        margin-left: 30px;
+        width: 180%;}
+
+    .kotak-2{
+            margin-top: 40px;
+            margin-left: 300px;
+            width: 48%;}
+    
+    .kotak-3{
+    margin-left: 300px;
+    width: 48%;
+}
+
+    h3{
+    font-size: 30px;
+    margin: 10px;
+    padding-right: 50px;
+    box-shadow: 2px 3px black;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+}
